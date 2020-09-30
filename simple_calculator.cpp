@@ -1,14 +1,15 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
 	int num1, num2, result;
-	string opt;
-	cout << "Enter first number: ";
+	char opt;	//since we need to store a single character either +,-,*,/
+	cout << "Enter first number:-> ";
 	cin >> num1;
-	cout << "Enter second number: ";
+	cout << "Enter second number:-> ";
 	cin >> num2;
-	cout << "Enter operator(+, - , * , /): ";
+	cout << "Enter operator(+, - , * , /):-> ";
 	cin >> opt;
 	
 	if (opt == "+")
